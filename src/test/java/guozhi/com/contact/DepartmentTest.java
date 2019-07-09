@@ -25,7 +25,7 @@ class DepartmentTest {
         //then进行断言，也可以对body进行断言
 //        department.list("").then().statusCode(200).body("department.name[0]",equalTo("testhome1234"));
 //        department.list("33").then().statusCode(200).body("department.name[0]",equalTo("testhome1234"));
-        department.list("33").then().statusCode(200);
+        department.list("1").then().statusCode(200);
 //                .body("department[0].name",equalTo("testhome1234"))
 //                .body("department[0].id",equalTo(33));
 

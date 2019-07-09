@@ -1,5 +1,10 @@
 package guozhi.com;
 
+import com.fasterxml.jackson.core.JsonProcessingException;
+import com.fasterxml.jackson.databind.ObjectMapper;
+import com.fasterxml.jackson.dataformat.yaml.YAMLFactory;
+
+import java.io.IOException;
 import java.util.HashMap;
 
 public class WeworkConfig {
@@ -9,19 +14,16 @@ public class WeworkConfig {
     public String corpid = "wwd6da61649bd66fea";
     public String contactSecret="C7uGOrNyxWWzwBsUyWEbLQdOqoWPz4hNvxj9RIFv-4U";
 */
-
-    public String agentId="3010040";
-    public String secret="ZdGzrarC-KoIV78r2f3oszXOLzDU-sxUcklAFDuV1pM";
+//
+    public String agentId="3010011";
+    public String secret="6mBGd2dBCkTiNDRfb--S06AQiKchGYOy4JsxtPVckMU";
     public String corpid = "ww76731601e6910ff6";
-    public String contactSecret="b45NOjFUNr90sVcpZQ26qryYVHsiYeCMv0tpFXOUG90";
-
-//    public String current="test";
-//    public HashMap<String, HashMap<String, String>> env;
+    public String contactSecret="b45NOjFUNr90sVcpZQ26qlGK-QvEwXW5H-giDItG1lc";
 
     private static WeworkConfig weworkConfig;
     public static WeworkConfig getInstance(){
         if(weworkConfig==null){
-//            weworkConfig=load("/conf/WeworkConfig.yaml");
+            weworkConfig=load("/conf/WeworkConfig.yaml");
 //            System.out.println(weworkConfig);
 //            System.out.println(weworkConfig.agentId);
             weworkConfig=new WeworkConfig();
@@ -29,7 +31,20 @@ public class WeworkConfig {
         return weworkConfig;
     }
 
-    public static void load(String path){
+    public static WeworkConfig load(String path){
         //todo:read from yaml or json
+        //读取yaml,如果要换成json，将YAMLFactory()替换JsonFactory()
+        ObjectMapper mapper = new ObjectMapper(new YAMLFactory());
+        try {
+            //返回是一个类test environment
+           return mapper.readValue(WeworkConfig.class.getResourceAsStream(path),WeworkConfig.class);
+              //写yaml文件
+//            System.out.println(mapper.writerWithDefaultPrettyPrinter().writeValueAsString(WeworkConfig.getInstance()));
+//            System.out.println(mapper.writeValueAsString(WeworkConfig.getInstance()));
+        } catch (IOException e) {
+            e.printStackTrace();
+            return null;
+        }
+
     }
 }
