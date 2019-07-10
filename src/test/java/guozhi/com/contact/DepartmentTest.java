@@ -33,8 +33,7 @@ class DepartmentTest {
 
     @Test
     void create() {
-        department.create("test002", "1").then().body("errcode", equalTo(0));
-        department.create("test002", "1").then().body("errcode", equalTo(0));
+        department.create("test0020709", "1").then().body("errcode", equalTo(0));
     }
     @Test
     void createByMap(){
@@ -44,7 +43,7 @@ class DepartmentTest {
         }
 
         };
-        department.create(map).then().body("errcode",equalTo(0));
+//        department.create(map).then().body("errcode",equalTo(0));
     }
 
 

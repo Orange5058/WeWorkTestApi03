@@ -14,7 +14,7 @@ public  class Contact extends Api {
     @Override
     public RequestSpecification getDefaultRequestSpecification(){
         RequestSpecification requestSpecification = super.getDefaultRequestSpecification();
-        requestSpecification.queryParam("access_token", Wework.getToken())
+        requestSpecification.queryParam("access_token", Wework.getContactToken())
                 .contentType(ContentType.JSON);
 
         requestSpecification.filter((req, res, ctx)->{

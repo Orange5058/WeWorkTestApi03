@@ -2,24 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="18248850-924c-4cd5-b7b5-68f75769097f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/guozhi/com/Api.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Api/list.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/conf/WeworkConfig.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/guozhi/com/ApiTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/guozhi/com/WeworkConfigTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Api/create.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Api/delete.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Api/update.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WeWorkTestApi03.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/guozhi/com/Restful.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/guozhi/com/Restful.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/guozhi/com/WeworkConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/guozhi/com/WeworkConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/guozhi/com/Api.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/guozhi/com/Api.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/guozhi/com/contact/Contact.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/guozhi/com/contact/Contact.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/guozhi/com/contact/Department.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/guozhi/com/contact/Department.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/guozhi/com/contact/KlookOrder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/guozhi/com/contact/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/guozhi/com/contact/Member.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/conf/WeworkConfig.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/conf/WeworkConfig.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/guozhi/com/contact/DepartmentTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/guozhi/com/contact/DepartmentTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/WeWorkTestApi03.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/guozhi/com/TestGetToken.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/guozhi/com/app.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/conf/WeworkConfig.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/conf/WeworkConfig.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/guozhi/com/Api.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/guozhi/com/Api.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/guozhi/com/contact/Contact.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/guozhi/com/contact/Contact.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/guozhi/com/contact/Department.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/guozhi/com/contact/Department.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/guozhi/com/contact/DepartmentTest$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/guozhi/com/contact/DepartmentTest$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/guozhi/com/contact/DepartmentTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/guozhi/com/contact/DepartmentTest.class" afterDir="false" />
     </list>
@@ -46,54 +41,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/guozhi/com/Restful.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/guozhi/com/WeworkConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
+            <state relative-caret-position="19">
+              <caret line="18" column="69" selection-start-line="18" selection-start-column="69" selection-end-line="18" selection-end-column="69" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/conf/WeworkConfig.yaml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="3" column="60" selection-start-line="3" selection-start-column="60" selection-end-line="3" selection-end-column="60" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/guozhi/com/Api.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="46" column="20" selection-start-line="46" selection-start-column="20" selection-end-line="46" selection-end-column="20" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#624#625#0" expanded="true" />
-                <element signature="e#666#667#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/guozhi/com/contact/Member.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/guozhi/com/ApiTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+            <state relative-caret-position="505">
+              <caret line="87" column="39" selection-start-line="87" selection-start-column="39" selection-end-line="87" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -104,8 +67,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/guozhi/com/contact/Contact.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="494">
-              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+            <state relative-caret-position="475">
+              <caret line="25" column="1" lean-forward="true" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -116,30 +79,59 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/guozhi/com/contact/DepartmentTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-427">
-              <caret line="23" column="11" lean-forward="true" selection-start-line="23" selection-start-column="11" selection-end-line="23" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/guozhi/com/contact/Department.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="20" column="23" lean-forward="true" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
+            <state relative-caret-position="489">
+              <caret line="77" column="23" selection-start-line="77" selection-start-column="23" selection-end-line="77" selection-end-column="23" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#591#607#0" expanded="true" />
+                <element signature="e#1051#1052#0" expanded="true" />
+                <element signature="e#1136#1137#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/Api/list.yaml">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/data/update.json">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/guozhi/com/contact/Department.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="11" lean-forward="true" selection-start-column="11" selection-end-column="11" />
+            <state relative-caret-position="395">
+              <caret line="101" column="26" lean-forward="true" selection-start-line="101" selection-start-column="26" selection-end-line="101" selection-end-column="26" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#591#607#0" expanded="true" />
+                <element signature="e#1913#1985#0" />
+                <element signature="e#2933#2949#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/Api/create.yaml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="38">
+              <caret line="2" selection-start-line="2" selection-end-line="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/Api/update.yaml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="19">
+              <caret line="1" column="58" selection-start-line="1" selection-start-column="58" selection-end-line="1" selection-end-column="58" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/Api/delete.yaml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
             </state>
           </provider>
         </entry>
@@ -187,14 +179,17 @@
         <option value="$PROJECT_DIR$/src/main/java/guozhi/com/contact/KlookOrder.java" />
         <option value="$PROJECT_DIR$/src/main/java/guozhi/com/Wework.java" />
         <option value="$PROJECT_DIR$/src/main/java/guozhi/com/WeworkConfig.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/conf/WeworkConfig.yaml" />
         <option value="$PROJECT_DIR$/src/test/java/guozhi/com/ApiTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/guozhi/com/contact/Contact.java" />
         <option value="$PROJECT_DIR$/src/main/java/guozhi/com/contact/Member.java" />
         <option value="$PROJECT_DIR$/src/main/resources/Api/list.yaml" />
+        <option value="$PROJECT_DIR$/src/main/resources/Api/create.yaml" />
+        <option value="$PROJECT_DIR$/src/main/resources/conf/WeworkConfig.yaml" />
+        <option value="$PROJECT_DIR$/src/main/java/guozhi/com/contact/Contact.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/Api/delete.yaml" />
+        <option value="$PROJECT_DIR$/src/main/resources/Api/update.yaml" />
+        <option value="$PROJECT_DIR$/src/test/java/guozhi/com/contact/DepartmentTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/guozhi/com/contact/Department.java" />
         <option value="$PROJECT_DIR$/src/main/java/guozhi/com/Api.java" />
-        <option value="$PROJECT_DIR$/src/test/java/guozhi/com/contact/DepartmentTest.java" />
       </list>
     </option>
   </component>
@@ -217,6 +212,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -286,6 +282,14 @@
               <item name="WeWorkTestApi03" type="b2602c69:ProjectViewProjectNode" />
               <item name="WeWorkTestApi03" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WeWorkTestApi03" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WeWorkTestApi03" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -316,7 +320,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -326,7 +329,7 @@
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557141467197" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../WeWorkTestApi03-master" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/Api" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -341,6 +344,7 @@
       <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\GZ\Desktop\Coding\WeWorkTestApi03\src\main\resources\Api" />
       <recent name="$PROJECT_DIR$/src/main/resources/data" />
     </key>
   </component>
@@ -356,7 +360,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.DepartmentTest.list">
+  <component name="RunManager" selected="JUnit.DepartmentTest.update">
     <configuration name="ApiTest.request" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="WeWorkTestApi03" />
       <extension name="coverage">
@@ -369,21 +373,6 @@
       <option name="MAIN_CLASS_NAME" value="guozhi.com.ApiTest" />
       <option name="METHOD_NAME" value="request" />
       <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DepartmentTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="WeWorkTestApi03" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="guozhi.com.contact.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="guozhi.com.contact" />
-      <option name="MAIN_CLASS_NAME" value="guozhi.com.contact.DepartmentTest" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -420,6 +409,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="DepartmentTest.update" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="WeWorkTestApi03" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="guozhi.com.contact.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="guozhi.com.contact" />
+      <option name="MAIN_CLASS_NAME" value="guozhi.com.contact.DepartmentTest" />
+      <option name="METHOD_NAME" value="update" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="GetTokenTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="WeWorkTestApi03" />
       <extension name="coverage">
@@ -437,11 +442,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.DepartmentTest.update" />
+        <item itemvalue="JUnit.DepartmentTest.create" />
         <item itemvalue="JUnit.DepartmentTest.list" />
         <item itemvalue="JUnit.ApiTest.request" />
-        <item itemvalue="JUnit.DepartmentTest.create" />
         <item itemvalue="JUnit.GetTokenTest" />
-        <item itemvalue="JUnit.DepartmentTest" />
       </list>
     </recent_temporary>
   </component>
@@ -464,44 +469,45 @@
       <workItem from="1562021312772" duration="3218000" />
       <workItem from="1562194308412" duration="2271000" />
       <workItem from="1562478485285" duration="17485000" />
-      <workItem from="1562594855992" duration="8742000" />
+      <workItem from="1562594855992" duration="8885000" />
+      <workItem from="1562685489545" duration="6925000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="DepartmentTest_list - 2019.07.08 at 22h 55m 42s.xml">
-      <configuration name="DepartmentTest.list" configurationId="JUnit" />
+    <history-entry file="DepartmentTest_create - 2019.07.10 at 00h 03m 43s.xml">
+      <configuration name="DepartmentTest.create" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DepartmentTest_list - 2019.07.08 at 23h 06m 00s.xml">
-      <configuration name="DepartmentTest.list" configurationId="JUnit" />
+    <history-entry file="DepartmentTest_create - 2019.07.10 at 00h 05m 11s.xml">
+      <configuration name="DepartmentTest.create" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ApiTest_request - 2019.07.08 at 23h 23m 29s.xml">
-      <configuration name="ApiTest.request" configurationId="JUnit" />
+    <history-entry file="DepartmentTest_create - 2019.07.10 at 00h 07m 13s.xml">
+      <configuration name="DepartmentTest.create" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ApiTest_request - 2019.07.08 at 23h 26m 15s.xml">
-      <configuration name="ApiTest.request" configurationId="JUnit" />
+    <history-entry file="DepartmentTest_create - 2019.07.10 at 00h 07m 35s.xml">
+      <configuration name="DepartmentTest.create" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DepartmentTest_list - 2019.07.08 at 23h 26m 26s.xml">
-      <configuration name="DepartmentTest.list" configurationId="JUnit" />
+    <history-entry file="DepartmentTest_create - 2019.07.10 at 07h 31m 57s.xml">
+      <configuration name="DepartmentTest.create" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DepartmentTest_list - 2019.07.08 at 23h 35m 54s.xml">
-      <configuration name="DepartmentTest.list" configurationId="JUnit" />
+    <history-entry file="DepartmentTest_create - 2019.07.10 at 07h 39m 32s.xml">
+      <configuration name="DepartmentTest.create" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DepartmentTest_list - 2019.07.08 at 23h 43m 49s.xml">
-      <configuration name="DepartmentTest.list" configurationId="JUnit" />
+    <history-entry file="DepartmentTest_update - 2019.07.10 at 08h 20m 55s.xml">
+      <configuration name="DepartmentTest.update" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DepartmentTest_list - 2019.07.08 at 23h 45m 53s.xml">
-      <configuration name="DepartmentTest.list" configurationId="JUnit" />
+    <history-entry file="DepartmentTest_update - 2019.07.10 at 08h 23m 22s.xml">
+      <configuration name="DepartmentTest.update" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DepartmentTest_list - 2019.07.08 at 23h 58m 29s.xml">
-      <configuration name="DepartmentTest.list" configurationId="JUnit" />
+    <history-entry file="DepartmentTest_update - 2019.07.10 at 08h 28m 48s.xml">
+      <configuration name="DepartmentTest.update" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DepartmentTest_list - 2019.07.09 at 07h 38m 54s.xml">
-      <configuration name="DepartmentTest.list" configurationId="JUnit" />
+    <history-entry file="DepartmentTest_update - 2019.07.10 at 08h 32m 40s.xml">
+      <configuration name="DepartmentTest.update" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35031000" />
+    <option name="totallyTimeSpent" value="42099000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -520,15 +526,15 @@
       <window_info id="Capture Tool" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Image Layers" order="4" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.18962723" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.19286872" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="0" visible="true" weight="0.23775671" />
+      <window_info anchor="bottom" id="Terminal" order="0" weight="0.23775671" />
       <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.50044763" side_tool="true" weight="0.32938388" />
       <window_info anchor="bottom" id="Messages" order="2" weight="0.32938388" />
       <window_info anchor="bottom" id="Version Control" order="3" weight="0.32938388" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Find" order="5" sideWeight="0.49955237" weight="0.32938388" />
-      <window_info anchor="bottom" id="Run" order="6" weight="0.33570302" />
+      <window_info active="true" anchor="bottom" id="Run" order="6" visible="true" weight="0.48973143" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.32543445" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
@@ -577,9 +583,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/data/update.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/target/surefire-reports/TEST-guozhi.com.TestGetToken.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-334" />
@@ -591,19 +594,12 @@
     <entry file="file://$PROJECT_DIR$/src/main/resources/data/createWithDup.csv">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/data/create.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="15" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/data/members.csv">
+      <provider editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="csv-text-editor" />
       <provider editor-type-id="csv-table-editor">
         <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
       </provider>
-      <provider selected="true" editor-type-id="csv-text-editor" />
-      <provider editor-type-id="text-editor" />
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-databind/2.9.8/jackson-databind-2.9.8.jar!/com/fasterxml/jackson/databind/ObjectMapper.class">
       <provider selected="true" editor-type-id="text-editor">
@@ -658,16 +654,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/guozhi/com/WeworkConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" column="69" selection-start-line="18" selection-start-column="69" selection-end-line="18" selection-end-column="69" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/guozhi/com/Restful.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
@@ -675,10 +661,51 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/guozhi/com/contact/Member.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/guozhi/com/ApiTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
+        <state relative-caret-position="190">
           <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Api/list.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="3" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/data/create.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="15" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/conf/WeworkConfig.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="52" selection-start-line="1" selection-start-column="52" selection-end-line="1" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/guozhi/com/WeworkConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="18" column="69" selection-start-line="18" selection-start-column="69" selection-end-line="18" selection-end-column="69" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -694,64 +721,68 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/guozhi/com/contact/Contact.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+        <state relative-caret-position="475">
+          <caret line="25" column="1" lean-forward="true" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/guozhi/com/contact/Member.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Api/delete.yaml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="76">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/conf/WeworkConfig.yaml">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Api/create.yaml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="60" selection-start-line="3" selection-start-column="60" selection-end-line="3" selection-end-column="60" />
+        <state relative-caret-position="38">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/Api/list.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="11" lean-forward="true" selection-start-column="11" selection-end-column="11" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/data/update.json">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/guozhi/com/Api.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Api/update.yaml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="46" column="20" selection-start-line="46" selection-start-column="20" selection-end-line="46" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#624#625#0" expanded="true" />
-            <element signature="e#666#667#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="19">
+          <caret line="1" column="58" selection-start-line="1" selection-start-column="58" selection-end-line="1" selection-end-column="58" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/guozhi/com/contact/DepartmentTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-427">
-          <caret line="23" column="11" lean-forward="true" selection-start-line="23" selection-start-column="11" selection-end-line="23" selection-end-column="11" />
+        <state relative-caret-position="489">
+          <caret line="77" column="23" selection-start-line="77" selection-start-column="23" selection-end-line="77" selection-end-column="23" />
+          <folding>
+            <element signature="e#1051#1052#0" expanded="true" />
+            <element signature="e#1136#1137#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/guozhi/com/contact/Department.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="20" column="23" lean-forward="true" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
+        <state relative-caret-position="395">
+          <caret line="101" column="26" lean-forward="true" selection-start-line="101" selection-start-column="26" selection-end-line="101" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#591#607#0" expanded="true" />
+            <element signature="e#1913#1985#0" />
+            <element signature="e#2933#2949#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/guozhi/com/Api.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="505">
+          <caret line="87" column="39" selection-start-line="87" selection-start-column="39" selection-end-line="87" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
