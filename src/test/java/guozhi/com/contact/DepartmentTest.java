@@ -17,7 +17,7 @@ class DepartmentTest {
     void setUp() {
         if (department == null) {
             department = new Department();
-            department.deleteAll();
+//            department.deleteAll();
         }
     }
     @Test

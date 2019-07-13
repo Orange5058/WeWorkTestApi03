@@ -16,9 +16,11 @@ public class WeworkConfig {
 */
 //
     public String agentId="3010011";
-    public String secret="6mBGd2dBCkTiNDRfb--S06AQiKchGYOy4JsxtPVckMU";
+    public String secret="6mBGd2dBCkTiNDRfb--S0zLTs7gXhpHgRl76L-7RrJ4";
     public String corpid = "ww76731601e6910ff6";
-    public String contactSecret="b45NOjFUNr90sVcpZQ26qlGK-QvEwXW5H-giDItG1lc";
+    public String contactSecret="b45NOjFUNr90sVcpZQ26qtOEB8LVlmrl2AFxLxrH-mc";
+    public String current="test";
+    public HashMap<String, HashMap<String, String>> env;
 
     private static WeworkConfig weworkConfig;
     public static WeworkConfig getInstance(){

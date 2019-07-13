@@ -1,4 +1,11 @@
-agentId: "3010011"
-secret: "6mBGd2dBCkTiNDRfb--S0-92rHhrUWIgT8P-aPGDsuY"
-corpid: "ww76731601e6910ff6"
-contactSecret:  "b45NOjFUNr90sVcpZQ26qlGK-QvEwXW5H-giDItG1lc"
+---
+agentId: "1000005"
+secret: "1JPyY9GvPLZfpvxEDjok-Xt_9v7HIBYJhZUoO6EgNGY"
+corpid: "wwd6da61649bd66fea"
+contactSecret: "C7uGOrNyxWWzwBsUyWEbLQdOqoWPz4hNvxj9RIFv-4U"
+current: test
+env:
+  dev:
+    "qyapi.weixin.qq.com": "qyapi.weixin.qq.com"
+  test:
+    "qyapi.weixin.qq.com": "140.207.127.79"

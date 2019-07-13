@@ -1,4 +1,10 @@
 agentId: "3010011"
-secret: "6mBGd2dBCkTiNDRfb--S0-92rHhrUWIgT8P-aPGDsuY"
+secret: "b6mBGd2dBCkTiNDRfb--S0zLTs7gXhpHgRl76L-7RrJ4"
 corpid: "ww76731601e6910ff6"
-contactSecret:  "b45NOjFUNr90sVcpZQ26qlGK-QvEwXW5H-giDItG1lc"
+contactSecret: "b45NOjFUNr90sVcpZQ26qtOEB8LVlmrl2AFxLxrH-mc"
+current: test
+env:
+  dev:
+    "qyapi.weixin.qq.com": "qyapi.weixin.qq.com"
+  test:
+    "qyapi.weixin.qq.com": "183.3.224.149"

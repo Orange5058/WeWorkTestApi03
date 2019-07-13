@@ -1,7 +1,5 @@
 package guozhi.com.contact;
 
-import com.jayway.jsonpath.DocumentContext;
-import com.jayway.jsonpath.JsonPath;
 import io.restassured.response.Response;
 
 import java.util.HashMap;
@@ -18,7 +16,7 @@ public class Department extends Contact {
 //                .then().log().all().extract().response();
         HashMap<String, Object> map = new HashMap<String, Object>();
         map.put("id", id);
-        return templateFromYaml("/api/list.yaml", map);
+        return getResponseFromYaml("/api/list.yaml", map);
 
     }
 
@@ -48,7 +46,7 @@ public class Department extends Contact {
 //        String body=template("/data/create.json", hashMap);
 //        //填充完值之后，先判断body是否有内容，如果有内容，立即填充，也就是将body填充为api的body
 //        hashMap.put("_body",body);
-        return templateFromYaml("/api/create.yaml", map);
+        return getResponseFromYaml("/api/create.yaml", map);
     }
 
     //
@@ -63,7 +61,7 @@ public class Department extends Contact {
 //                .when().post("https://qyapi.weixin.qq.com/cgi-bin/department/create")
 //                .then().log().all().extract().response();
         map.put("_file", "/data/create.json");
-        return templateFromYaml("/api/create.yaml", map);
+        return getResponseFromYaml("/api/create.yaml", map);
 
     }
 
@@ -77,7 +75,7 @@ public class Department extends Contact {
 //        return response;
         HashMap<String, Object> map = new HashMap<String, Object>();
         map.put("id", id);
-        return templateFromYaml("/api/delete.yaml", map);
+        return getResponseFromYaml("/api/delete.yaml", map);
 
     }
 
@@ -104,7 +102,7 @@ public class Department extends Contact {
 //        String body=template("/data/create.json", hashMap);
 //        //填充完值之后，先判断body是否有内容，如果有内容，立即填充，也就是将body填充为api的body
 //        hashMap.put("_body",body);
-        return templateFromYaml("/api/update.yaml", map);
+        return getResponseFromYaml("/api/update.yaml", map);
     }
 
     //删除部门
